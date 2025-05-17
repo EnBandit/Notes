@@ -41,7 +41,7 @@ jobs:
             shell: bash
             forge_platform: linux
           - name: windows
-            image: win-signing
+            image: self-hosted
             shell: cmd
             forge_platform: win32
     runs-on: ${{ matrix.os.image }}
